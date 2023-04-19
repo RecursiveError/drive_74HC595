@@ -1,0 +1,14 @@
+[package]
+name = "drive_74hc595"
+version = "0.1.0"
+edition = "2021"
+authors = ["guilherme Silva Schultz <guilhermeSschultz.contato@gmail.com>"]
+description = "Drive for IC 74HC595 Shift Register"
+license = "MIT"
+repository = "https://github.com/RecursiveError/drive_74hc595"
+keywords = ["shift register", "74HC595", "embedded-hal"]
+categories = ["embedded", "hardware-support", "no-std"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-hal = "0.2.7"
