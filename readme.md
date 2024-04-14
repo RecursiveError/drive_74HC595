@@ -11,6 +11,8 @@ let mut drive = ShiftRegister::new(OE, SER, SRCLR, SRCLK, RCLK);
 ```
 OE and SRCLR can be dummy pins (if this is the case connect the pin of IC OE and SRCLR to GND and VCC respectively)
 
+*If you choose to disable these pins, the functions associated with them will not work.*
+
 after that call the "begin" function
 ```rust
 drive.begin();
